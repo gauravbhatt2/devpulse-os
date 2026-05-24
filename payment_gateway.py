@@ -6,3 +6,4 @@ def process_payment(cart_id, amount):
         if result.status == "ok":
             return result
     raise PaymentFailureError("Payment API unreachable after 3 retries")
+#SCRUM-6 hotfix: fix 500 error on checkout endpoint
