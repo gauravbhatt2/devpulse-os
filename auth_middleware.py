@@ -11,3 +11,4 @@ def validate_token(token: str) -> dict:
         raise AuthError("Token expired — refresh required")
 #SCRUM-7 handle expired token edge case
 ##
+#
