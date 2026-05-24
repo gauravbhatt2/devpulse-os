@@ -9,3 +9,4 @@ def process_payment(cart_id, amount):
 #SCRUM-6 hotfix: fix 500 error on checkout endpoint
 #fix: resolve 500 error on checkout endpoint
 ##
+#
